@@ -8,13 +8,35 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        yellow: '#eec200',
+        red:'#DE3618',
+        bgRed: '#fcebe8',
+        custombg: '#f9fafb',
+        custombg1:'#edf9f9',
+        primary: '#47C1BF',  
+        secondary: '#5C6AC4', 
+        dark: '#161D25', 
+        lightGray: '#959EAD', 
+        lightGray2: '#C4CDD5',
+        blue: '#006FBB', 
+        darkGray: '#212B36', 
+        mediumGray: '#5A7184', 
+        gray: '#637381', 
+        purple: '#43467F',
       },
+      animation: {
+        'loop-scroll': 'loop-scroll 50s linear infinite',
+      },
+      keyframes: {
+        'loop-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        }
+      }    
     },
   },
   plugins: [],
 };
+
 export default config;

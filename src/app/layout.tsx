@@ -1,8 +1,11 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Rubik, Roboto } from "next/font/google";
 import "./globals.css";
+import Footer from '@/components/Footer';
+import SectionHeader from '@/components/SectionHeader';
 
-const inter = Inter({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["latin"], weight: ["300", "400", "500", "700", "900"] });
+const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500", "700", "900"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>
+        <SectionHeader/>
+        {children}
+        <Footer />
+        </body>
     </html>
   );
 }
