@@ -22,7 +22,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'Apple Watch 4 2020',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     },
     {
       id: 3,
@@ -31,7 +38,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'iPhone XS Max Pro',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     },
     {
       id: 4,
@@ -40,7 +54,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'Beats by Dre C 3450',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     },
     {
       id: 5,
@@ -49,7 +70,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'Airpods 2nd Gen',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     },
     {
       id: 6,
@@ -58,7 +86,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'Garmin Watch Fit X',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     },
     {
       id: 7,
@@ -67,7 +102,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'Women Yellow Turtleneck',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     },
     {
       id: 8,
@@ -76,7 +118,14 @@ export const products = [
       paragraph: 'Men Fashion',
       title: 'Harman Kardon Speaker',
       price: '1,725.00',
-      rating: 5
+      rating: 5,
+      buttons: [
+        { 
+  text: 'Add to cart', bgColor: 'bg-purple' },
+        { 
+        
+  text: 'Quick view', bgColor: 'text-lightGray' }
+      ] 
     }
   ];
   

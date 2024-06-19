@@ -66,7 +66,7 @@ const LogoSlider = () => {
         <img
           loading="lazy"
           src="images/brand/sony.svg"
-          className="max-w-none h-5  "
+          className="max-w-none h-20 "
           alt=""
         />
         <img

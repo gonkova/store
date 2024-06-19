@@ -19,11 +19,13 @@ const config: Config = {
         dark: '#161D25', 
         lightGray: '#959EAD', 
         lightGray2: '#C4CDD5',
+        lightGray3: '#919eab',
         blue: '#006FBB', 
         darkGray: '#212B36', 
         mediumGray: '#5A7184', 
         gray: '#637381', 
         purple: '#43467F',
+        lightGrayishBlue: '#F4F6F8',
       },
       animation: {
         'loop-scroll': 'loop-scroll 50s linear infinite',

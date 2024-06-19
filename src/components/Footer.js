@@ -7,21 +7,23 @@ import { FaSquareFacebook } from "react-icons/fa6";
 
 export default function Footer() {
   return (
-    <div className="bg-red-100 py-2 mx-auto md:px-20 w-full max-w-7xl h-[64px] flex flex-col gap-20">
-      <div className="flex flex-row items-center justify-between">
+   <div className="bg-lightGrayishBlue w-full  md:mt-10">
+     <div className="py-5 mx-auto md:px-20 w-full max-w-7xl h-auto md:h-[64px] gap-20">
+      <div className="flex flex-col-reverse gap-2 md:flex-row items-center md:justify-between">
         <div>
-          <p className="text-mediumGray text-sm">
+          <p className="text-mediumGray md:text-sm">
             Store &copy;Copyright 2024, Inc. All rights reserved
           </p>
         </div>
         <div className="flex flex-row items-center space-x-4">
-          <FaSquareFacebook className="text-2xl text-lightGray" />
-          <FaTwitter className="text-2xl text-lightGray" />
-          <FaLinkedin className="text-2xl text-lightGray" />
-          <PiInstagramLogoLight className="text-2xl text-lightGray" />
-          <GrGithub className="text-3xl text-lightGray" />
+          <FaSquareFacebook className="text-2xl md:text-xl text-lightGray cursor-pointer" />
+          <FaTwitter className="text-2xl md:text-xl text-lightGray cursor-pointer" />
+          <FaLinkedin className="text-2xl md:text-xl text-lightGray cursor-pointer"/>
+          <PiInstagramLogoLight className="text-2xl md:text-xl text-lightGray cursor-pointer" />
+          <GrGithub className="text-2xl md:text-xl text-lightGray cursor-pointer" />
         </div>
       </div>
     </div>
+   </div>
   );
 }
