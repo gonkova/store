@@ -73,7 +73,7 @@ export default function SectionProductList() {
         <div>
           <h2 className="font-bold text-[22px]">Product list 1</h2>
           {productsListOne.map((product) => (
-            <div className="flex flex-row mt-10">
+            <div key={product.id}  className="flex flex-row mt-10">
               <Image
                 src={product.imageUrl}
                 alt={product.title}
@@ -103,7 +103,7 @@ export default function SectionProductList() {
         <div>
           <h2 className="font-bold text-[22px]">Product list 2</h2>
           {productsListTwo.map((product) => (
-            <div className="flex flex-row mt-10">
+            <div key={product.id} className="flex flex-row mt-10">
               <Image
                 src={product.imageUrl}
                 alt={product.title}
@@ -133,7 +133,7 @@ export default function SectionProductList() {
         <div>
           <h2 className="font-bold text-[22px]">Product list 3</h2>
           {productsListThree.map((product) => (
-            <div className="flex flex-row mt-10">
+            <div  key={product.id}  className="flex flex-row mt-10">
               <Image
                 src={product.imageUrl}
                 alt={product.title}
